@@ -26,6 +26,17 @@ body {
 	opacity: .9;
 	margin-top: .2em;
 }
+.for {
+	text-transform: uppercase;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	letter-spacing: .4em;
+	font-size: calc(var(--index) * 1);
+	position: absolute;
+	font-weight: 100;
+	text-align: center;
+	opacity: .9;
+	margin-top: 2em;
+}
 .header span {
 	display: block;
 	font-family: Helvetica, sans-serif;
@@ -61,7 +72,6 @@ body {
 	opacity: 0;
 }
 
-/* DARK MODE OS */
 
 @media (prefers-color-scheme: dark) {
 	body {
@@ -71,8 +81,6 @@ body {
 		filter: invert(100%);
 	}
 }
-
-/* MOBILE */
 
 @media (max-width : 992px) {
 
