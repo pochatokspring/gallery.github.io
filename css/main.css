@@ -81,6 +81,11 @@ body {
 	.header {
 		filter: invert(100%);
 	}
+	.forfromarman 
+	{
+		filter: invert(100%);
+
+	}
 }
 
 @media (max-width : 992px) {
